@@ -1,0 +1,21 @@
+div{
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: azure;
+}
+.iniciar-btn{
+    background-color: green;
+}
+.pausa-btn{
+    background-color: grey;
+}
+.para-btn{
+    background-color: red;
+}
