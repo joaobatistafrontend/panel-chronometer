@@ -1,5 +1,6 @@
 div{
     text-align: center;
+    background-color: chocolate;
 }
 button:hover{
     cursor: pointer;

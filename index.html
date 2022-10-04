@@ -7,11 +7,17 @@
 </head>
 <body>
     <div>
-    <h1 id="relogio">3:00</h1>
-    <button class="iniciar-btn" onclick="inicia()">iniciar</button>
-    <button class="pausa-btn"onclick="pausa()">pausar</button>
-    <button class="para-btn" onclick="parar()">para</button>
-
+        <button class="iniciar-btn" onclick="um()">+1</button>
+        <button class="pausa-btn"onclick="dois()">+2</button>
+        <button class="para-btn" onclick="tres()">+3</button>
+        <button class="pausa-btn"onclick="quatro()">+4</button>
+        <button class="para-btn" onclick="cinco()">+5</button>
+        <h1 id="relogio">03:00</h1>
+        <button class="iniciar-btn" onclick="inicia()">iniciar</button>
+        <button class="pausa-btn"onclick="pausa()">pausar</button>
+        <button class="para-btn" onclick="parar()">para</button>
+        <!-- <div id="message-success" style="backgroud-color: green;"></div> -->
+        <button id="pausado" class="paudado-btn" onclick="pausado()" style="display:none ;">Pausado</button>
 
     </div>
     <script src="index.js" ></script>
